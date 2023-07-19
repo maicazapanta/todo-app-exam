@@ -1,21 +1,10 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wraper bg-gradient-to-t from-gray-900 to-yellow-300 to- min-h-screen text-xl text-gray-100 flex flex-col py-10">
+      <Header />
     </div>
   );
 }
