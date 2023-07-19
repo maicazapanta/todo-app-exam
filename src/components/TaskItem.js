@@ -4,7 +4,7 @@ import {
   DeleteHandlerContext,
   EditHandlerContext,
   EditCommentHandlerContext,
-} from "../App";
+} from "../Main";
 import Comment from "./Comment";
 
 const TaskItem = ({ task, handleEditSubmitter, editedText, setEditedText }) => {
